@@ -10,7 +10,7 @@ body {
    color: #00ff00;
    font-size: 13px;
    line-height: 1.6;
-     background-image: url("../images/main-bkgd.gif");
+     background-image: url("https://ik.imagekit.io/simonbrown/photography/images/main-bkgd.gif");
 }
 
 p, li, li label {
@@ -33,7 +33,7 @@ a:hover {
 
 .header {
   background: #000000;
-  background-image: url("../images/bkgd.gif");
+  background-image: url("https://ik.imagekit.io/simonbrown/photography/images/bkgd.gif");
   border-bottom:   3px solid  #000000;    
 
 }
