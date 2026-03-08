@@ -1,0 +1,340 @@
+/*
+ * Template Name: Unify - Responsive Bootstrap Template
+ * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
+ * Version: 1.9.
+ * Author: @htmlstream
+ * Website: http://htmlstream.com
+*/
+
+/*!
+ *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */@font-face{font-family:'FontAwesome';src:url('../fonts/fontawesome-webfont.eot?v=4.5.0');src:url('../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'),url('../fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'),url('../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+
+
+/*Fonts
+------------------------------------*/
+
+.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+
+.fa-search:before{content:"\f002"}
+
+.fa-search-plus:before{content:"\f00e"}
+
+.fa-search-minus:before{content:"\f010"}
+
+.fa-navicon:before,.fa-bars:before{content:"\f0c9"}
+
+.fa-angle-right:before{content:"\f105"}
+
+.fa-angle-double-right:before{content:"\f101"}
+
+.fa-times:before{content:"\f00d"}
+
+
+
+/*Back to Top
+------------------------------------*/
+#topcontrol {
+  color: #fff;
+  z-index: 99;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  background: #222;
+  position: relative;
+  right: 14px !important;
+  bottom: 11px !important;
+  border-radius: 3px !important;
+}
+
+#topcontrol:after {
+  top: -2px;
+  left: 8.5px;
+  content: "\f106";
+  position: absolute;
+  text-align: center;
+  font-family: FontAwesome;
+}
+
+#topcontrol:hover {
+  color: #fff;
+  background: #72c02c;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+/*Copyright*/
+.footer .copyright {
+	background: #222;
+	border-top: none;
+	padding: 10px 0 5px;
+}
+
+.footer .copyright p {
+	color: #eee;
+	margin-top: 14px;
+}
+
+.footer .copyright a {
+	margin: 0 2px;
+}
+
+@media (max-width: 991px) {
+	.footer .copyright,
+}
+
+
+/*Forms
+------------------------------------*/
+.form-control:focus {
+	border-color: #bbb;
+	box-shadow: 0 0 2px #c9c9c9;
+}
+
+/*Navigation
+------------------------------------*/
+.dropdown-menu,
+.navbar-toggle {
+	 border-radius: 0;
+}
+
+/*Pegination*/
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination-lg > li:first-child > a,
+.pagination-lg > li:first-child > span,
+.pagination-lg > li:last-child > a,
+.pagination-lg > li:last-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+	border-radius: 0;
+}
+
+.pagination li a {
+	color: #777;
+	padding: 5px 15px;
+}
+
+.pagination li a:hover {
+	 color: #fff;
+	 background: #5fb611;
+	 border-color: #5fb611;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+	 border-color: #72c02c;
+	 background-color: #72c02c;
+}
+
+/*Pagination Without Space*/
+.pagination-no-space .pagination {
+	 margin: 0;
+}
+
+/*Pager*/
+.pager li > a,
+.pager li > span {
+	border-radius: 0;
+}
+
+.pager li > a:hover,
+.pager li > a:focus {
+	 color: #fff;
+	 background: #5fb611;
+	 border-color: #5fb611;
+}
+
+/*Button Styles
+------------------------------------*/
+.btn {
+	 box-shadow: none;
+	 border-radius: 0;
+}
+.btn-u {
+	 border: 0;
+	 color: #fff;
+	 font-size: 14px;
+	 cursor: pointer;
+	 font-weight: 400;
+	 padding: 6px 13px;
+	 position: relative;
+	 background: #72c02c;
+	 white-space: nowrap;
+	 display: inline-block;
+	 text-decoration: none;
+}
+.btn-u:hover {
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn-u.btn-block {
+	text-align: center;
+}
+
+a.btn-u {
+	 /*padding: 4px 13px;*/
+	 /*vertical-align: middle;*/
+}
+
+.btn-u-sm,
+a.btn-u-sm {
+	 padding: 3px 12px;
+}
+
+.btn-u-md,
+a.btn-u-md {
+	 padding: 10px 20px;
+}
+
+.btn-u-lg,
+a.btn-u-lg {
+	 font-size: 18px;
+	 padding: 10px 25px;
+}
+
+.btn-u-xs,
+a.btn-u-xs {
+	 font-size: 12px;
+	 padding: 2px 12px;
+	 line-height: 18px;
+}
+
+/*Button Groups*/
+.btn-group .dropdown-menu > li > a {
+	 padding: 3px 13px;
+}
+
+.btn-group > .btn-u,
+.btn-group-vertical > .btn-u {
+	 float: left;
+	 position: relative;
+}
+
+.btn-group > .btn-u:first-child {
+	 margin-left: 0;
+}
+
+/*For FF Only*/
+@-moz-document url-prefix() {
+	 .footer-subsribe .btn-u {
+			padding-bottom: 4px;
+	 }
+}
+@media (max-width: 768px) {
+	 @-moz-document url-prefix() {
+			.btn-u {
+				 padding-bottom: 6px;
+			}
+	 }
+}
+
+/*Buttons Color*/
+.btn-u:hover,
+.btn-u:focus,
+.btn-u:active,
+.btn-u.active,
+.open .dropdown-toggle.btn-u {
+	 background: #5fb611;
+}
+.btn-u-split.dropdown-toggle {
+	 border-left: solid 1px #5fb611;
+}
+
+
+.btn-u.btn-u-default {
+	 background: #95a5a6;
+}
+.btn-u.btn-u-default:hover,
+.btn-u.btn-u-default:focus,
+.btn-u.btn-u-default:active,
+.btn-u.btn-u-default.active,
+.open .dropdown-toggle.btn-u.btn-u-default {
+	 background: #7f8c8d;
+}
+.btn-u.btn-u-split-default.dropdown-toggle {
+	 border-left: solid 1px #7f8c8d;
+}
+
+
+
+.btn-u.btn-u-dark-blue {
+	 background: #4765a0;
+}
+.btn-u.btn-u-dark-blue:hover,
+.btn-u.btn-u-dark-blue:focus,
+.btn-u.btn-u-dark-blue:active,
+.btn-u.btn-u-dark-blue.active,
+.open .dropdown-toggle.btn-u.btn-u-dark-blue {
+	 background: #324c80;
+}
+.btn-u.btn-u-split-dark.dropdown-toggle {
+	 border-left: solid 1px #324c80;
+}
+
+.clear-both { clear: both;}
+
+
+
+/*Copyright*/
+.footer .copyright {
+	background: #222;
+	border-top: none;
+	padding: 10px 0 5px;
+}
+
+.footer .copyright p {
+	color: #eee;
+	margin-top: 14px;
+}
+
+.footer .copyright a {
+	margin: 0 2px;
+}
+
+
+
+@media (max-width: 991px) {
+	.footer-v1 .copyright,
+}
+
+
+
+@-webkit-keyframes scroll {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: translateY(36px);
+						transform: translateY(36px);
+	}
+}
+@keyframes scroll {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: translateY(36px);
+						transform: translateY(36px);
+	}
+}
+
+
+

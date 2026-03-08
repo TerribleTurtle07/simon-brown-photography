@@ -1,0 +1,3 @@
+RewriteEngine on 
+RewriteCond %{HTTP_HOST} ^simonbrownphotography.co.uk [NC] 
+RewriteRule ^(.*)$ http://www.simonbrownphotography.co.uk/$1 [L,R=301]

@@ -1,0 +1,149 @@
+/*
+ * Template Name: Unify - Responsive Bootstrap Template
+ * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
+ * Version: 1.8
+ * Author: @htmlstream
+ * Website: http://htmlstream.com
+*/
+
+body {
+   color: #00ff00;
+   font-size: 13px;
+   line-height: 1.6;
+     background-image: url("../images/main-bkgd.gif");
+}
+
+p, li, li label {
+   color: #555;
+}
+
+a {
+   color: #72c02c;
+   text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:hover {
+   color: #72c02c;
+   text-decoration: none;
+}
+
+.header {
+  background: #000000;
+  background-image: url("../images/bkgd.gif");
+  border-bottom:   3px solid  #000000;    
+
+}
+
+.content {
+  padding-top: 20px;  
+  border-top:   1px solid  #3a3a3a;  
+}
+
+
+/*Headings*/
+h1 {
+	font-size: 28px;
+	line-height: 35px;
+}
+h2 {
+	font-size: 24px;
+	line-height: 33px;
+}
+h3 {
+	font-size: 10px;
+
+}
+h4 {
+	line-height: 0px;
+	height:5px;
+		text-align: center;
+			padding-bottom: 14px; 
+}
+
+h4 a {
+	line-height: 0px;
+	height:5px;
+	text-align: center;
+	padding-bottom: 20px; 
+	
+}
+
+
+h1, h2, h3, h4 {
+	color: #999;
+	margin-top: 5px;
+	text-shadow: none;
+	font-weight: normal;
+	font-family: "Open Sans", Arial, sans-serif;
+}
+
+.img-responsive {
+	margin-top: 0px;
+	margin-bottom: 30px;	
+	margin-left: 0px;
+	margin-right: 0px;
+
+	border-style: solid;
+	border-color: #191919;
+	border-width: 3px;
+}
+
+.img-responsive2 {
+	margin-top: 0px;
+	margin-bottom: 15px;	
+	margin-left: 0px;
+	margin-right: 0px;
+
+	border-style: solid;
+	border-color: #191919;
+	border-width: 3px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*----responsive-start---*/
+
+@media(max-width:1440px){ 
+	h4 { font-size: 1.2em;}	
+}
+	
+@media(max-width:1280px){ 
+	h4 { font-size: 1.2em;}	
+}
+
+@media(max-width:1024px){ /* ipad landscape & smallest monitor (menu squashes up) */
+	h4 { font-size: 1.0em;}	
+}
+
+@media(max-width:768px){ /* ipad portrait (tablet menu) */
+	h4 { font-size: 1.8em;}		
+}
+
+@media(max-width:640px){ /* larger phones */
+	h4 { font-size: 1.6em;}	
+}
+
+@media(max-width:480px){ /* iphone landscape (too much padding) */
+	h4 { font-size: 1.4em;}	
+}
+
+@media(max-width:320px){ /* iphone portrait (1 column) */
+}
+
+
+
+
+
+
+
+
+
